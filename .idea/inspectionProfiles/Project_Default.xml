@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.6" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tensorflow" />
+          <option value="input_data" />
+          <option value="model" />
+          <option value="cifar10_input" />
+          <option value="BeaufifulSoup" />
+          <option value="scaper.scraper" />
+          <option value="sohu_news_topic_classification_using_naive_bayes.*" />
+          <option value="word2vec.*" />
+          <option value="w2c.random" />
+          <option value="utils.invert_dict" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
