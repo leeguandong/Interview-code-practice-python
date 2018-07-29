@@ -45,6 +45,7 @@ class Solution:
                     FindPath2(root.left, path, currentNum)
                 if root.right:
                     FindPath2(root.right, path, currentNum)
+            # 拿到一个正确的路径后要弹出，回到上一次父节点继续递归
             path.pop()
 
         FindPath2(root, [], 0)
